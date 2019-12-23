@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc1ac61c-72bc-4851-bce0-b0575e53fd11" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UWYxOyqnf7xP4Z7elQoVP1Z8Tu" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytodoAuthNotDone" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\andersen\mytodo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\andersen\mytodo\css" />
+      <recent name="D:\andersen\mytodo\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc1ac61c-72bc-4851-bce0-b0575e53fd11" name="Default Changelist" comment="" />
+      <created>1575474063637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575474063637</updated>
+      <workItem from="1575474065520" duration="7299000" />
+      <workItem from="1575535254909" duration="18970000" />
+      <workItem from="1575710463400" duration="27092000" />
+      <workItem from="1575802904043" duration="19848000" />
+      <workItem from="1575888364657" duration="12931000" />
+      <workItem from="1576054457041" duration="58000" />
+      <workItem from="1576746968101" duration="14862000" />
+      <workItem from="1576926601287" duration="19693000" />
+      <workItem from="1577016920383" duration="11468000" />
+      <workItem from="1577098977262" duration="19560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

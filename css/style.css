@@ -1,0 +1,194 @@
+@import './clear.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#app{
+    text-align: center;
+    width: 40%;
+    margin: 25px auto 0;
+}
+#app h1{
+    font-size: 50px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+#header table{
+    text-align: left;
+}
+#header table tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#header table tr td:first-child{
+    padding-right: 10px;
+}
+.inputDiv{
+    display: flex;
+    position: relative;
+    margin: 50px auto 20px;
+    padding-bottom: 3px;
+}
+#addButton{
+    margin: 0 3px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    /*position: absolute;
+    right: 0;*/
+    border-radius: 20%;
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url(../img/plus.png);*/
+    cursor: pointer;
+}
+#addButton:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.inputDiv:after{
+    opacity: 1;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 50%, white 90%);
+}
+.inputDiv input{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+    /*border-bottom: 3px solid rgba(0,0,0,0.15);*/
+    height: 50px;
+}
+.inputDiv input::placeholder{
+    color: rgba(0, 0, 0, 0.1);
+}
+#controlButtonsBlock{
+    margin-bottom: 30px;
+}
+
+/*.inputDiv input:focus::-webkit-input-placeholder {
+    opacity: 0; transition: opacity 0.3s ease;
+}*/
+
+.ulWrap {
+    position: relative;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    /*border-left: 2px solid rgba(0, 0, 0, 0.2);*/
+    /*border-right: 2px solid rgba(0, 0, 0, 0.2);*/
+    padding: 20px;
+}
+.ulWrap:before{
+    opacity: 1;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 50%, white 100%);
+}
+.ulWrap:after{
+    opacity: 1;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 50%, white 100%);
+}
+.blockButtons{
+    float: right;
+    display: none;
+}
+.controlButton{
+    margin: 0 3px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.editInput{
+    font-size: 23px;
+    border: none;
+    padding-left: 10px;
+}
+.deleteButton{
+    background-image: url(../img/trash.png);
+}
+.editButton{
+    background-image: url(../img/check.png);
+}
+#showButtons{
+    margin-bottom: 30px;
+}
+
+ul li{
+    padding: 3px 0;
+    position: relative;
+    font-size: 25px;
+    height: 30px;
+    margin: 10px 0;
+    text-align: left;
+    display: block;
+}
+.hint{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    display: none;
+}
+.loginForm{
+    text-align: center;
+    width: 40%;
+    margin: 25px auto 0;
+}
+
+.loginForm h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.loginForm input{
+    padding: 0 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.loginForm button{
+    margin-top: 10px;
+}
+
+.loginForm .error{
+    color: red;
+    display: none;
+    display: none;
+}
+
+
+ul li:before{
+    opacity: 1;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 40%, white 90%);
+}
