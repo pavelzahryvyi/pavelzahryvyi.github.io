@@ -3,7 +3,7 @@ export class Component{
         this.anchor.innerHTML = this.render();
         this.setupListeners();
 
-        //метод для подгрузки дополнвтельных данных
+        //метод для подгрузки дополнвтельных данных///////////////
         this.startInfo();
 
         return this.anchor;
